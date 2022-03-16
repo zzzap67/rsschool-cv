@@ -15,7 +15,7 @@
 
 ## Skils
 
-MS SQL / HTML / CSS / JavaScript / PHP / VueJS / Git / C / Delphi / 1C
+MS SQL / HTML / CSS / JavaScript / PHP / VueJS / Git / Figma / C / Delphi / 1C
 
 ## Code Example
 
@@ -37,3 +37,7 @@ function likes(names) {
   }
 }
 ```
+
+## Language
+
+English level - Pre-intermediate
