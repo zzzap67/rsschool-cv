@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alexei Berillo | CV</title>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="main">
+	    <div class="wrapper">
+			<!-- Sidebar -->
+        <div class="sidebar">
+		        <div class="avatar-wrap">
+				        <img src="avatar.jpg" height="152" width="120"></img>
+				    </div>
+
+				    <div class="text-center">
+					    <h3 class="title sidebar__user-name">Alexei Berillo</h3>
+					    <div class="badge">Software Engeneer</div>
+				    </div>
+
+				    <ul class="contact-block">
+					    <li class="contact-block__item">
+						    Minsk, Belarus
+					    </li>
+					    <li class="contact-block__item">
+						    <a href="mailto:zzzap67@gmail.com">zzzap67@gmail.com</a>
+					    </li>
+					    <li class="contact-block__item">
+						    Discord: zzzap67
+					    </li>
+				    </ul>
+
+      </div>
+
+			<!-- Content -->
+		    <div class="content">
+          <h1 class="title title--h1">CV</h1>
+
+          <div class="section">
+            <h2 class="title title--h2">Education</h2>
+            <div class="timeline">
+              <!-- Item -->
+              <article class="timeline__item">
+                <h5 class="title title--h3 timeline__title">Belarusian State University, Minsk, Belarus</h5>
+                <span class="timeline__period">2006</span>
+                <p class="timeline__description">Master of Science (Mathematics and Computer Science)</p>
+              </article>
+
+              <!-- Item -->
+              <article class="timeline__item">
+                <h5 class="title title--h3 timeline__title">Belarusian State Economic University, Minsk, Belarus</h5>
+                <span class="timeline__period">2012</span>
+                <p class="timeline__description">Master of Economic (Foreign Economic Activity)</p>
+              </article>
+            </div>
+          </div>
+          <div class="section mt-0">
+		        <h2 class="title title--h2">Skils</h2>
+				  	<div>
+					    <p>MS SQL / HTML / CSS / JavaScript / PHP / VueJS / Git / Figma / C / Delphi / 1C</p>
+				    </div>
+				  </div>
+          <div class="section mt-0">
+		        <h2 class="title title--h2">Code Example</h2>
+				  	<div>
+					    <p>Here is my solution for <a href="https://www.codewars.com/kata/5266876b8f4bf2da9b000362">Who likes it?</a> task on CodeWars:</p>
+				    </div>
+            <div>
+            <pre class="code-black">function likes<span class="code-hack">(</span>names<span class="code-hack">)</span> <span class="code-purple">{</span>
+  <span class="code-red code-bold">switch</span> <span class="code-hack">(</span>names<span class="code-hack">.</span>length<span class="code-hack">)</span> <span class="code-purple">{</span>
+    <span class="code-red code-bold">case </span><span class="code-green">0</span><span class="code-pink">:</span>
+      <span class="code-red code-bold">return</span> <span class="code-red">"</span><span class="code-blue">no one likes this</span><span class="code-red">"</span><span class="code-purple">;</span>
+    <span class="code-red code-bold">case </span><span class="code-green">1</span><span class="code-pink">:</span>
+      <span class="code-red code-bold">return</span> `$<span class="code-purple">{</span>names<span class="code-hack">[</span><span class="code-green">0</span><span class="code-hack">]</span><span class="code-purple">}</span> likes <span class="code-red code-bold">this</span>`<span class="code-purple">;</span>
+    <span class="code-red code-bold">case </span><span class="code-green">2</span><span class="code-pink">:</span>
+      <span class="code-red code-bold">return</span> `$<span class="code-purple">{</span>names<span class="code-hack">[</span><span class="code-green">0</span><span class="code-hack">]</span><span class="code-purple">}</span> and $<span class="code-purple">{</span>names<span class="code-hack">[</span><span class="code-green">1</span><span class="code-hack">]</span><span class="code-purple">}</span> like <span class="code-red code-bold">this</span>`<span class="code-purple">;</span>
+    <span class="code-red code-bold">case </span><span class="code-green">3</span><span class="code-pink">:</span>
+      <span class="code-red code-bold">return</span> `$<span class="code-purple">{</span>names<span class="code-hack">[</span><span class="code-green">0</span><span class="code-hack">]</span><span class="code-purple">}</span><span class="code-hack">,</span> $<span class="code-purple">{</span>names<span class="code-hack">[</span><span class="code-green">1</span><span class="code-hack">]</span><span class="code-purple">}</span> and $<span class="code-purple">{</span>names<span class="code-hack">[</span><span class="code-green">2</span><span class="code-hack">]</span><span class="code-purple">}</span> like <span class="code-red code-bold">this</span>`<span class="code-purple">;</span>
+<span class="code-pink">&#xa0;&#xa0;&#xa0;&#xa0;</span><span class="code-red code-bold">default</span><span class="code-pink">:</span>
+      <span class="code-red code-bold">return</span> `$<span class="code-purple">{</span>names<span class="code-hack">[</span><span class="code-green">0</span><span class="code-hack">]</span><span class="code-purple">}</span><span class="code-hack">,</span> $<span class="code-purple">{</span>names<span class="code-hack">[</span><span class="code-green">1</span><span class="code-hack">]</span><span class="code-purple">}</span> and $<span class="code-purple">{</span>names<span class="code-hack">.</span>length<span class="code-hack">-</span><span class="code-green">2</span><span class="code-purple">}</span> others like <span class="code-red code-bold">this</span>`<span class="code-purple">;</span>
+  <span class="code-purple">}</span>
+<span class="code-purple">}</span>
+</pre>
+
+            </div>
+				  </div>
+          <div class="section mt-0">
+		        <h2 class="title title--h2">Language</h2>
+				  	<div>
+					    <p>English level - Pre-intermediate</p>
+				    </div>
+				  </div>
+
+        </div><!-- Content End -->
+		</div><!-- Wrapper End -->
+  </div>
+
+
+
+</body>
+</html>
